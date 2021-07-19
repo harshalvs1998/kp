@@ -1,0 +1,30 @@
+.preloader {
+    display: flex;
+    justify-content: center;
+    background-color: #0c0b0b;
+    height: 100vh;
+    overflow: hidden !important;
+}
+
+.rotate {
+    animation: rotation 5s infinite linear;
+}
+
+.rotate {
+    vertical-align: middle;
+    position: absolute;
+    margin-top: 10%;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 80rem;
+    overflow: hidden !important;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
